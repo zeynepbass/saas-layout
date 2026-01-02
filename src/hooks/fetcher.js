@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { GetFunction } from "@/app/services/fetcher";
+import { GetFunction } from "@/services/fetcher";
 
 export function useFetchUser() {
   const [data, setData] = useState([]);

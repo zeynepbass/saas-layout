@@ -1,6 +1,6 @@
 "use client";
 
-import { useFetchUser } from "@/app/hooks/fetcher";
+import { useFetchUser } from "@/hooks/fetcher";
 
 export default function GetPage() {
   const { data, loading } = useFetchUser();
